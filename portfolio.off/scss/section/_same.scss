@@ -1,0 +1,51 @@
+.same{
+    background: var(--grayblue);
+    width: 100%;
+    height: 378px;
+    padding-top: 40px;
+    padding-left: 70px;
+    margin-bottom: 170px;
+    &__title{
+        color: rgb(255, 255, 255);
+        font-family: "Montserrat", sans-serif;
+        font-size: 87px;
+        font-weight: 800;
+        line-height: 106px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 5px;
+    }
+    &__info{
+        width: 610px;
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 50px;
+    }
+    &__submit{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        position: absolute;
+        top: 5240px;
+        left: 1100px;
+        width: 229px;
+        height: 214px;
+        cursor: pointer;
+        background: url("../../icon/Star\ 9.svg") center/cover no-repeat;
+    }
+    &__submit-text{
+        color: rgb(29, 61, 71);
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}

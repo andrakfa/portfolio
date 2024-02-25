@@ -1,0 +1,124 @@
+.services{
+    &__header{
+        height: 179px;
+        border-radius: 39px 39px 0px 0px;
+        background: rgb(167, 216, 237);
+        padding: 40px;
+        margin-bottom: 20px;
+    }
+    &__header-title{
+        color: rgb(255, 255, 255);
+        font-family: "Montserrat", sans-serif;
+        font-size: 84px;
+        font-weight: 800;
+        line-height: 102px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    &__background{
+        display: flex;
+    }
+    &__ellips{
+        width: 400px;
+        height: 600px;
+        border-radius: 50%;
+        border: 1px solid rgb(0, 0, 0);
+    }
+    &__ellips:nth-child(2){
+        margin-left: -30px;
+    }
+    &__ellips:nth-child(3){
+        margin-left: -100px;
+
+     }
+
+     &__star{
+        position: absolute;
+        top: 1930px;
+        left: 140px;
+        width: 66px;
+        height: 66px;
+        background: var(--hellblue);
+        clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+        transform: rotate(-11.30deg);
+     }
+     &__star:nth-child(2){
+        top: 2340px;
+        left: 690px;
+        transform: rotate(0deg);
+     }
+     &__star:last-child{
+        left: 1320px;
+        transform: rotate(11.30deg);
+     }
+     &__ell-star{
+        position: absolute;
+        width: 82px ;
+        height: 77px;
+        top: 2440px;
+        left: 150px;
+        background: url("../../icon/Star\ 6.svg") center/cover no-repeat;
+     }
+     &__ell-star:nth-child(2){
+        top:2070px;
+        left: 740px;
+     }
+     &__blocks{
+        position: absolute;
+        top: 1900px;
+        left: 190px;
+        display: flex;
+     }
+     &__block{
+         padding-top: 40px;
+         padding-left: 25px;
+        width: 483px;
+        height: 650px;
+        margin-right: 180px;
+        border-radius: 5px;
+        background: rgb(237, 251, 255);
+     }
+     &__block:last-child{
+      padding-top: 70px;
+      margin-right: 0px;
+     }
+     &__title{
+      color: rgb(0, 0, 0);
+      font-family: "Montserrat", sans-serif;
+      font-size: 26px;
+      font-weight: 700;
+      line-height: 32px;
+      letter-spacing: 0%;
+      text-align: left;
+      margin-bottom: 30px;
+     }
+     &__info{
+      color: rgb(29, 61, 71);
+      font-family: "Inder", sans-serif;
+      font-size: 41px;
+      font-weight: 400;
+      line-height: 51px;
+      letter-spacing: 0%;
+      text-align: left;
+     }
+     &__ell-star-big{
+      padding-top: 90px;
+      padding-left: 56px;
+      position: absolute;
+      top: 2340px;
+      left: 1100px;
+      width: 324px;
+      height: 302px;
+      background: url("../../icon/Star\ 6.svg") center/cover no-repeat;
+     }
+     &__ell-star-text{
+      width: 213px;
+      color: rgb(255, 255, 255);
+      font-family: "Inter", sans-serif;
+      font-size: 21px;
+      font-weight: 600;
+      line-height: 25px;
+      letter-spacing: 0%;
+      text-align: left;
+     }
+}

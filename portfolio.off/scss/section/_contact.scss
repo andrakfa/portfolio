@@ -1,0 +1,38 @@
+.contact{
+    &__inner{
+       display: flex;
+    }
+    &__block{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 348px;
+        height: 52px;
+        border: 1px solid rgb(0, 0, 0);
+    }
+    &__text{
+        color: rgb(0, 0, 0);
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    &__qwer{
+       height: 250px;
+       background: white;
+       display: flex;
+       align-items: flex-end;
+       justify-content: center;
+    }
+    &__qwer-text{
+        color: var(--grayblue);
+        font-family: "Montserrat", sans-serif;
+        font-size: 87px;
+        font-weight: 800;
+        line-height: 106px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+ }

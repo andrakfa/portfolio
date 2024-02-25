@@ -1,0 +1,35 @@
+.header{
+    background: white;
+    border: 1px solid var(--grayblue);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    &__menu-list{
+        height: 73px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__menu-logo{
+        background: linear-gradient(180.00deg, rgb(63, 93, 103),rgb(184, 238, 255));
+        -webkit-background-clip:text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    &__menu-item{
+        color: var(--grayblue);
+        font-family: "Inter", sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0%;
+    }
+}

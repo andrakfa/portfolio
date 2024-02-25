@@ -1,0 +1,77 @@
+.home{
+    padding-top:162px ;
+    height: 384px;
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title-block{
+        width: 573px;
+    }
+    &__title{
+        color: var(--grayblue);
+        font-family: "Montserrat", sans-serif ;
+        font-size: 105px;
+        font-weight: 800;
+        line-height: 128px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    &__figure{
+        width: 630px;
+    }
+    &__ellipse{
+        width: 628.83px;
+        height: 257.16px;
+        margin-left: -80px;
+        transform: rotate(-15.58deg);
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 50%;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+    &__star{
+        margin-top:-200px;
+        margin-left: -105px;
+        background: var(--hellblue);
+        width: 130px;
+        height: 130px;
+        clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    }
+    &__ell-star{
+        padding-top: 95px;
+        padding-left: 36px;
+        top: 280px ;
+        right: 320px;
+        position: absolute;
+        width: 243px;
+        height: 226px;
+        background: url("../../icon/Star\ 6.svg") center/cover no-repeat;    
+    }
+    &__ell-star-text{
+        width: 185px;
+        color: white;
+        font-family: "Inter", sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    &__text{
+        position: absolute;
+        left: 1104.42px;
+        right: 120.78px;
+        top: 514px;
+        bottom: -30px;
+        width: 253.8px;
+        height: 37px;
+        color: rgb(0, 0, 0);
+        font-family: "Inter", sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+}
